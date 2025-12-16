@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexa | Aspiring Full-Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header" class="navbar navbar-expand-lg bg-white shadow-sm fixed-top py-3 px-4">
+        <div class="container-fluid">
+            <div class="logo navbar-brand mb-0 h1">Port<span>folio</span></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navigation">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <a href="#contact" class="btn btn-talk ms-lg-3 mt-3 mt-lg-0 d-inline-flex align-items-center">
+                    <i class="fas fa-comment-dots me-2"></i>
+                    Let's Talk
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home d-flex flex-column flex-lg-row align-items-center justify-content-between" id="home">
+        <div class="content position-relative z-3 col-12 col-lg-7 mb-5 mb-lg-0">
+            <span class="subtitle d-block mb-2">Welcome to my Portfolio</span>
+            <h2 class="mb-3">Hi, I'm <span>Alexa</span></h2>
+            <p class="mb-4">A graduating student and aspiring <span class="highlight">full-stack developer</span> with a passion for crafting unique, responsive, and user-centered digital experiences. I specialize in building modern web applications that solve real-world problems.</p>
+            <div class="btn-group d-flex flex-wrap gap-3 mb-4" role="group">
+                <a href="#contact" class="btn btn-talk d-flex align-items-center justify-content-center flex-grow-1 flex-shrink-1 mb-2 mb-md-0">
+                    <i class="fas fa-briefcase me-2"></i>Hire Me
+                </a>
+                <a href="#projects" class="btn btn-outline-info d-flex align-items-center justify-content-center flex-grow-1 flex-shrink-1">
+                    <i class="fas fa-code me-2"></i>View Projects
+                </a>
+            </div>
+            <div class="social-icons d-flex gap-3">
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com" target="_blank" aria-label="GitHub profile"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com" target="_blank" aria-label="Twitter profile"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram profile"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section class="about-me-section" id="about" style="padding: 48px 0 32px 0; background: #fff;">
+        <div class="container-fluid" style=" padding-left: 0; padding-right: 0;">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row align-items-center gx-4 gy-4" style="min-height: 500px; display: flex;">
+                        <!-- Left: Image -->
+                        <div class="col-12 col-md-5 d-flex justify-content-center align-items-center" style="min-height: 320px;">
+                            <div class="about-img-frame position-relative" style="display: inline-block; box-shadow: 0 8px 32px rgba(0,0,0,0.10); border-radius: 18px; background: #f5f5f5; padding: 0;">
+                                <img src="prof.png" alt="About Me Photo" class="about-img" style="width: 260px; height: 320px; object-fit: cover; border-radius: 14px; background: #f5f5f5; display: block; margin: 0 auto;">
+                                <div style="position: absolute; top: -12px; left: -12px; width: 36px; height: 36px; border-top: 4px solid #0d9488; border-left: 4px solid #0d9488; border-radius: 8px;"></div>
+                                <div style="position: absolute; bottom: -12px; right: -12px; width: 36px; height: 36px; border-bottom: 4px solid #0d9488; border-right: 4px solid #0d9488; border-radius: 8px;"></div>
+                            </div>
+                        </div>
+                        <!-- Right: Text -->
+                        <div class="col-12 col-md-7 d-flex align-items-center" style="min-height: 320px;">
+                            <div class="about-text-content ps-md-4" style="width: 100%; max-width: 75%;">
+                                <h5 style="font-weight: 700; color: #222; margin-bottom: 0.5rem; font-size: 1.1rem; letter-spacing: 0.5px;">My Story</h5>
+                                <h2 style="color: #0d9488; font-weight: 900; margin-bottom: 1.1rem; font-size: 2.3rem; letter-spacing: 0.5px;">About Me</h2>
+                                <p style="color: #444; margin-bottom: 1.5rem; font-size: 1.08rem; line-height: 1.7; text-align: justify;">
+                                Hi! I'm <strong>Maria Alexa De Luna</strong>, an Information Technology student from the
+                                <strong>University of Cebu</strong> with a strong interest in software and web development.
+                                I work with multiple programming languages including <strong>JavaScript, C, and .NET</strong>,
+                                and I specialize in <strong>Python</strong>, which I am most confident and efficient in using.
+                                <br><br>
+                                I have experience developing web applications using <strong>Flask</strong> and working with
+                                databases such as <strong>SQL, SQLite3, and MySQL</strong>. I also build responsive and
+                                user-friendly interfaces using <strong>HTML, CSS, Bootstrap, and Tailwind CSS</strong>.
+                                Additionally, I have explored integrating <strong>AI-powered chatbot features</strong> into
+                                systems to enhance user interaction and automation.
+                                <br><br>
+                                I continuously improve my skills through hands-on projects and learning resources such as
+                                <strong>W3Schools</strong>, and I am eager to grow as a developer by applying my knowledge to
+                                real-world systems and innovative solutions.
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION - UPDATED WITH SMALLER CARDS -->
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <div class="section-title">
+                <span class="section-subtitle">My Technical Expertise</span>
+                <h2 class="section-main-title">Skills & Technologies</h2>
+                <div class="skills-divider"></div>
+                <p class="section-description">Here are the technologies and tools I work with to build modern web applications</p>
+            </div>
+            
+            <div class="row g-3">
+                <!-- Programming Languages -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="skill-category">Programming Languages</h3>
+                        <ul class="skill-list">
+                            <li><i class="fas fa-check"></i> Python <span class="skill-badge">Specialized</span></li>
+                            <li><i class="fas fa-check"></i> JavaScript</li>
+                            <li><i class="fas fa-check"></i> Java</li>
+                            <li><i class="fas fa-check"></i> C</li>
+                            <li><i class="fas fa-check"></i> .NET</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Databases -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3 class="skill-category">Databases</h3>
+                        <ul class="skill-list">
+                            <li><i class="fas fa-check"></i> MySQL</li>
+                            <li><i class="fas fa-check"></i> SQLite / SQLite3</li>
+                            <li><i class="fas fa-check"></i> Firebase</li>
+                            <li><i class="fas fa-check"></i> SQL</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Frameworks & Libraries -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3 class="skill-category">Frameworks & Libraries</h3>
+                        <ul class="skill-list">
+                            <li><i class="fas fa-check"></i> Flask</li>
+                            <li><i class="fas fa-check"></i> Bootstrap</li>
+                            <li><i class="fas fa-check"></i> Tailwind CSS</li>
+                            <li><i class="fas fa-check"></i> SweetAlert</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Frontend Technologies -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3 class="skill-category">Frontend Technologies</h3>
+                        <ul class="skill-list">
+                            <li><i class="fas fa-check"></i> HTML5</li>
+                            <li><i class="fas fa-check"></i> CSS3</li>
+                            <li><i class="fas fa-check"></i> Bootstrap</li>
+                            <li><i class="fas fa-check"></i> Tailwind CSS</li>
+                            <li><i class="fas fa-check"></i> JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Learning Resources -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="skill-category">Learning Resources</h3>
+                        <ul class="skill-list">
+                            <li><i class="fas fa-check"></i> W3Schools</li>
+                            <li><i class="fas fa-check"></i> Online Documentation</li>
+                            <li><i class="fas fa-check"></i> Project-based Learning</li>
+                            <li><i class="fas fa-check"></i> University Curriculum</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Development Tools -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3 class="skill-category">Development Skills</h3>
+                        <ul class="skill-list">
+                            <li><i class="fas fa-check"></i> Full-Stack Development</li>
+                            <li><i class="fas fa-check"></i> Responsive Web Design</li>
+                            <li><i class="fas fa-check"></i> REST APIs</li>
+                            <li><i class="fas fa-check"></i> Version Control (Git)</li>
+                            <li><i class="fas fa-check"></i> Problem Solving</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION - UNIQUE DESIGN -->
+    <section class="projects-section" id="projects">
+        <div class="container">
+            <div class="section-title">
+                <span class="section-subtitle">My Development Journey</span>
+                <h2 class="section-main-title">Project Portfolio</h2>
+                <p class="section-description">Explore my collection of full-stack applications, each representing a milestone in my development journey. From academic projects to real-world solutions.</p>
+            </div>
+            
+            <div class="row">
+                <!-- LaundryLink (CAPSTONE) -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-icon-side">
+                            <div class="project-icon-container">
+                                <i class="fas fa-soap project-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-content-side">
+                            <h3 class="project-title">LaundryLink IoT System</h3>
+                            <p class="project-description">LaundryLink is an IoT-enabled laundry management system designed to improve both self-service and drop-off laundry operations. It provides real-time laundry weight monitoring, automated customer notifications using QR codes, and a centralized admin dashboard for transaction tracking, inventory management, and business analytics, helping laundry shops operate more efficiently while offering better convenience to customers.</p>
+                            <div class="view-more-row">
+                                <a href="#" class="view-more-link" data-bs-toggle="modal" data-bs-target="#laundrylinkModal">VIEW MORE</a>
+                            </div>
+                            <br><br>
+                            <div class="project-tech">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">Flask</span>
+                                <span class="tech-badge">IoT Sensors | Components</span>
+                                <span class="tech-badge">Firebase</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">W3Schools | Css</span>
+                            </div>
+                            <hr class="project-divider">
+                            <div class="project-features">
+                                <span class="project-type"><i class="fas fa-layer-group"></i> Full-Stack</span>
+                                <span class="project-year">2024</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/larie08/laundry-link" target="_blank" class="github-link">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- GadgetHub E-commerce -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-icon-side">
+                            <div class="project-icon-container">
+                                <i class="fas fa-laptop project-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-content-side">
+                            <h3 class="project-title">GadgetHub E-commerce Platform</h3>
+                            <p class="project-description">GadgetHub E-commerce Platform is a static web-based project developed during our first year in college using HTML, CSS, JavaScript, and SweetAlert. The system allows customers to view available gadgets, add and remove items from the cart, and automatically compute the total cost. While it demonstrates basic e-commerce functionalities and front-end interaction, it is not a complete or fully functional online shopping system.</p>
+                            <div class="view-more-row">
+                                <a href="#" class="view-more-link" data-bs-toggle="modal" data-bs-target="#gadgethubModal">VIEW MORE</a>
+                            </div>
+                            <br><br>
+                            <div class="project-tech">
+                                <span class="tech-badge">HTML5/CSS3</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">SweetAlert</span>
+                                <span class="tech-badge">Bootstrap</span>
+                                <span class="tech-badge">Static</span>
+                            </div>
+                            <hr class="project-divider">
+                            <div class="project-features">
+                                <span class="project-type"><i class="fas fa-shopping-cart"></i> E-commerce</span>
+                                <span class="project-year">2023</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/deLuna18/term-project" target="_blank" class="github-link">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sit-in Management System -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-icon-side">
+                            <div class="project-icon-container">
+                                <i class="fas fa-desktop project-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-content-side">
+                            <h3 class="project-title">UC Computer Lab Management</h3>
+                            <p class="project-description">Comprehensive computer laboratory management system for University of Cebu. Features real-time student tracking, seat allocation, equipment monitoring, and usage analytics.</p>
+                            <div class="view-more-row">
+                                <a href="#" class="view-more-link" data-bs-toggle="modal" data-bs-target="#uclabModal">VIEW MORE</a>
+                            </div>
+                            <br><br>
+                            <div class="project-tech">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">Flask</span>
+                                <span class="tech-badge">SQLite3</span>
+                                <span class="tech-badge">W3Schools</span>
+                                <span class="tech-badge">Bootstrap</span>
+                                <span class="tech-badge">REST API</span>
+                            </div>
+                            <hr class="project-divider">
+                            <div class="project-features">
+                                <span class="project-type"><i class="fas fa-university"></i> Academic</span>
+                                <span class="project-year">2023</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" class="github-link">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- School Portal with Webcam -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-icon-side">
+                            <div class="project-icon-container">
+                                <i class="fas fa-camera project-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-content-side">
+                            <h3 class="project-title">Smart School Portal with Face Recognition</h3>
+                            <p class="project-description">Advanced school portal integrated with facial recognition for automated attendance. Includes grade management, announcements system, and comprehensive student profile management.</p>
+                            <div class="view-more-row">
+                                <a href="#" class="view-more-link" data-bs-toggle="modal" data-bs-target="#schoolportalModal">VIEW MORE</a>
+                            </div>
+                            <br><br>
+                            <div class="project-tech">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">OpenCV</span>
+                                <span class="tech-badge">Flask</span>
+                                <span class="tech-badge">MySQL</span>
+                                <span class="tech-badge">Face Recognition</span>
+                            </div>
+                            <hr class="project-divider">
+                            <div class="project-features">
+                                <span class="project-type"><i class="fas fa-robot"></i> AI Integration</span>
+                                <span class="project-year">2023</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" class="github-link">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Subdivision Management System -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-icon-side">
+                            <div class="project-icon-container">
+                                <i class="fas fa-home project-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-content-side">
+                            <h3 class="project-title">Subdivision Management System</h3>
+                            <p class="project-description">Enterprise-level system for managing residential subdivisions. Features include homeowner management, automated billing, maintenance request tracking, and document management.</p>
+                            <div class="view-more-row">
+                                <a href="#" class="view-more-link" data-bs-toggle="modal" data-bs-target="#subdivisionModal">VIEW MORE</a>
+                            </div>
+                            <br><br>
+                            <div class="project-tech">
+                                <span class="tech-badge">.NET</span>
+                                <span class="tech-badge">C#</span>
+                                <span class="tech-badge">SQL Server</span>
+                                <span class="tech-badge">Bootstrap</span>
+                                <span class="tech-badge">Entity Framework</span>
+                            </div>
+                            <hr class="project-divider">
+                            <div class="project-features">
+                                <span class="project-type"><i class="fas fa-building"></i> Enterprise</span>
+                                <span class="project-year">2022</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" class="github-link">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Pick Me (Java) -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-icon-side">
+                            <div class="project-icon-container">
+                                <i class="fas fa-hand-pointer project-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-content-side">
+                            <h3 class="project-title">Pick Me Decision Assistant</h3>
+                            <p class="project-description">Java-based decision-making application with intelligent random selection from custom lists. Features include list persistence, custom weighting algorithms, and intuitive GUI interface.</p>
+                            <div class="view-more-row">
+                                <a href="#" class="view-more-link" data-bs-toggle="modal" data-bs-target="#pickmeModal">VIEW MORE</a>
+                            </div>
+                            <br><br>
+                            <div class="project-tech">
+                                <span class="tech-badge">Java</span>
+                                <span class="tech-badge">Swing GUI</span>
+                                <span class="tech-badge">File I/O</span>
+                                <span class="tech-badge">Data Structures</span>
+                            </div>
+                            <hr class="project-divider">
+                            <div class="project-features">
+                                <span class="project-type"><i class="fas fa-random"></i> Desktop App</span>
+                                <span class="project-year">2022</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" class="github-link">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Term Project (HTML/CSS) -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-icon-side">
+                            <div class="project-icon-container">
+                                <i class="fas fa-code project-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-content-side">
+                            <h3 class="project-title">Modern Web Portfolio</h3>
+                            <p class="project-description">A responsive web portfolio showcasing advanced HTML5 and CSS3 techniques. It features a clean design, smooth animations, interactive elements, and an integrated chatbot for user interaction and assistance.</p>
+                            <div class="view-more-row">
+                                <a href="#" class="view-more-link" data-bs-toggle="modal" data-bs-target="#portfolioModal">VIEW MORE</a>
+                            </div>
+                            <br><br>
+                            <div class="project-tech">
+                                <span class="tech-badge">HTML5</span>
+                                <span class="tech-badge">CSS3</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">Responsive Design</span>
+                                <span class="tech-badge">Animations</span>
+                                <span class="tech-badge">Chatbot Integration</span>
+                            </div>
+                            <hr class="project-divider">
+                            <div class="project-features">
+                                <span class="project-type"><i class="fas fa-palette"></i> Frontend</span>
+                                <span class="project-year">2022</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" class="github-link">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- School Portal -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-icon-side">
+                            <div class="project-icon-container">
+                                <i class="fas fa-university project-icon"></i>
+                            </div>
+                        </div>
+                        <div class="project-content-side">
+                            <h3 class="project-title">School Management Portal</h3>
+                            <p class="project-description">Comprehensive school management system for student records, course registration, and grade management. Features user-friendly interface and secure data handling.</p>
+                            <div class="view-more-row">
+                                <a href="#" class="view-more-link" data-bs-toggle="modal" data-bs-target="#schoolmgmtModal">VIEW MORE</a>
+                            </div>
+                            <br><br>
+                            <div class="project-tech">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">Flask</span>
+                                <span class="tech-badge">SQLite3</span>
+                                <span class="tech-badge">HTML|CSS|W3Schools</span>
+                                <span class="tech-badge">CRUD Operations</span>
+                            </div>
+                            <hr class="project-divider">
+                            <div class="project-features">
+                                <span class="project-type"><i class="fas fa-graduation-cap"></i> Academic</span>
+                                <span class="project-year">2021</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" class="github-link">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for LaundryLink IoT System -->
+    <div class="modal fade" id="laundrylinkModal" tabindex="-1" aria-labelledby="laundrylinkModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content project-modal-content" style="padding: 25px;">
+          <div class="modal-header border-0">
+            <h5 class="modal-title" id="laundrylinkModalLabel" style="margin-bottom: 20px;">LaundryLink IoT System</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-0">
+            <div class="project-modal-img-top">
+              <img src="laundry.jpg" alt="LaundryLink Screenshot" class="img-fluid w-100 rounded-top project-modal-img">
+            </div>
+            <div class="p-4">
+              <p class="mb-3" style="color:#444; font-size:1.05rem;">
+                LaundryLink is an IoT-enabled laundry management system designed to improve both self-service and drop-off laundry operations. It provides real-time laundry weight monitoring, automated customer notifications using QR codes, and a centralized admin dashboard for transaction tracking, inventory management, and business analytics, helping laundry shops operate more efficiently while offering better convenience to customers.
+              </p>
+              <div class="mb-3">
+                <strong>Tools & Technologies:</strong>
+                <div class="project-tech mt-2">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">Flask</span>
+                    <span class="tech-badge">IoT Sensors | Components</span>
+                    <span class="tech-badge">Firebase</span>
+                    <span class="tech-badge">JavaScript</span>
+                    <span class="tech-badge">W3Schools | Css</span>
+                </div>
+              </div>
+              <div class="d-flex justify-content-end">
+                <a href="https://github.com" target="_blank" class="github-link">
+                    <i class="fab fa-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GadgetHub Modal -->
+    <div class="modal fade" id="gadgethubModal" tabindex="-1" aria-labelledby="gadgethubModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content project-modal-content"style="padding: 25px;">
+          <div class="modal-header border-0">
+            <h5 class="modal-title" id="gadgethubModalLabel">GadgetHub E-commerce Platform</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-0">
+            <div class="project-modal-img-top">
+              <img src="E-Commerce.jpg" alt="GadgetHub Screenshot" class="img-fluid w-100 rounded-top project-modal-img">
+            </div>
+            <div class="p-4">
+              <p class="mb-3" style="color:#444; font-size:1.05rem;">
+                A modern e-commerce platform specializing in gadgets and laptops, featuring interactive UI, secure shopping cart, user authentication, and enhanced with SweetAlert notifications.
+              </p>
+              <div class="mb-3">
+                <strong>Tools & Technologies:</strong>
+                <div class="project-tech mt-2">
+                    <span class="tech-badge">HTML5/CSS3</span>
+                    <span class="tech-badge">JavaScript</span>
+                    <span class="tech-badge">SweetAlert</span>
+                    <span class="tech-badge">Bootstrap</span>
+                    <span class="tech-badge">Responsive</span>
+                </div>
+              </div>
+              <div class="d-flex justify-content-end">
+                <a href="https://github.com/deLuna18/term-project" target="_blank" class="github-link">
+                    <i class="fab fa-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- UC Computer Lab Modal -->
+    <div class="modal fade" id="uclabModal" tabindex="-1" aria-labelledby="uclabModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content project-modal-content" style="padding: 25px;">
+          <div class="modal-header border-0">
+            <h5 class="modal-title" id="uclabModalLabel">UC Computer Lab Management</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-0">
+            <div class="project-modal-img-top">
+              <img src="Sitin.jpg" alt="UC Lab Screenshot" class="img-fluid w-100 rounded-top project-modal-img">
+            </div>
+            <div class="p-4">
+              <p class="mb-3" style="color:#444; font-size:1.05rem;">
+                Comprehensive computer laboratory management system for University of Cebu. Features real-time student tracking, seat allocation, equipment monitoring, and usage analytics.
+              </p>
+              <div class="mb-3">
+                <strong>Tools & Technologies:</strong>
+                <div class="project-tech mt-2">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">Flask</span>
+                    <span class="tech-badge">SQLite3</span>
+                    <span class="tech-badge">Bootstrap</span>
+                    <span class="tech-badge">REST API</span>
+                </div>
+              </div>
+              <div class="d-flex justify-content-end">
+                <a href="https://github.com/deLuna18/Sit_in_Management_System" target="_blank" class="github-link">
+                    <i class="fab fa-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Smart School Portal Modal -->
+    <div class="modal fade" id="schoolportalModal" tabindex="-1" aria-labelledby="schoolportalModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content project-modal-content" style="padding: 25px;">
+          <div class="modal-header border-0">
+            <h5 class="modal-title" id="schoolportalModalLabel">Smart School Portal with Face Recognition</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-0">
+            <div class="project-modal-img-top">
+              <img src="school.jpg" alt="Smart School Portal Screenshot" class="img-fluid w-100 rounded-top project-modal-img">
+            </div>
+            <div class="p-4">
+              <p class="mb-3" style="color:#444; font-size:1.05rem;">
+                Advanced school portal integrated with facial recognition for automated attendance. Includes grade management, announcements system, and comprehensive student profile management.
+              </p>
+              <div class="mb-3">
+                <strong>Tools & Technologies:</strong>
+                <div class="project-tech mt-2">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">OpenCV</span>
+                    <span class="tech-badge">Flask</span>
+                    <span class="tech-badge">MySQL</span>
+                    <span class="tech-badge">Face Recognition</span>
+                </div>
+              </div>
+              <div class="d-flex justify-content-end">
+                <a href="https://github.com/deLuna18/school_portal_with_webcm" target="_blank" class="github-link">
+                    <i class="fab fa-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Subdivision Management Modal -->
+    <div class="modal fade" id="subdivisionModal" tabindex="-1" aria-labelledby="subdivisionModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content project-modal-content" style="padding: 25px;">
+          <div class="modal-header border-0">
+            <h5 class="modal-title" id="subdivisionModalLabel">Subdivision Management System</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-0">
+            <div class="project-modal-img-top">
+              <img src="../statics/images/subdivision-bg.jpg" alt="Subdivision Management Screenshot" class="img-fluid w-100 rounded-top project-modal-img">
+            </div>
+            <div class="p-4">
+              <p class="mb-3" style="color:#444; font-size:1.05rem;">
+                Enterprise-level system for managing residential subdivisions. Features include homeowner management, automated billing, maintenance request tracking, and document management.
+              </p>
+              <div class="mb-3">
+                <strong>Tools & Technologies:</strong>
+                <div class="project-tech mt-2">
+                    <span class="tech-badge">.NET</span>
+                    <span class="tech-badge">C#</span>
+                    <span class="tech-badge">SQL Server</span>
+                    <span class="tech-badge">Bootstrap</span>
+                    <span class="tech-badge">Entity Framework</span>
+                </div>
+              </div>
+              <div class="d-flex justify-content-end">
+                <a href="https://github.com" target="_blank" class="github-link">
+                    <i class="fab fa-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <!-- CONTACT SECTION - COOL & UNIQUE DESIGN -->
+    <section class="contact-section" id="contact">
+    <div class="container">
+        <div class="contact-card mx-auto">
+            <div class="row g-0">
+                <!-- Left: Illustration or Icon -->
+                <div class="col-md-5 contact-visual d-flex align-items-center justify-content-center">
+                    <div class="contact-visual-inner">
+                        <i class="fas fa-paper-plane contact-plane"></i>
+                        <div class="contact-bg-shape"></div>
+                    </div>
+                </div>
+                <!-- Right: Form -->
+                <div class="col-md-7">
+                    <div class="contact-form-wrapper p-4 p-md-5">
+                        <h2 class="contact-title mb-2">Let's Connect</h2>
+                        <p class="contact-desc mb-4">Have a project in mind, want to collaborate, or just say hi? Fill out the form below and I'll get back to you soon!</p>
+                        <form>
+                            <div class="mb-3">
+                                <label for="contactName" class="form-label">Name</label>
+                                <input type="text" class="form-control contact-input" id="contactName" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="contactEmail" class="form-label">Email</label>
+                                <input type="email" class="form-control contact-input" id="contactEmail" placeholder="you@email.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="contactMessage" class="form-label">Message</label>
+                                <textarea class="form-control contact-input" id="contactMessage" rows="4" placeholder="Type your message..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-contact w-100 mt-2">
+                                <i class="fas fa-paper-plane me-2"></i>Send Message
+                            </button>
+                        </form>
+                        <div class="contact-social mt-4">
+                            <a href="https://linkedin.com" target="_blank" class="contact-social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com" target="_blank" class="contact-social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://twitter.com" target="_blank" class="contact-social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://instagram.com" target="_blank" class="contact-social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</section>
+<style>
+/* Chatbot launcher as a clean logo without circle background */
+.flowise-branding,
+[class*="powered"],
+[class*="flowise-credit"] {
+    display: none !important;
+}
+.flowise-launcher {
+    background: transparent !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    width: 60px !important;
+    height: 60px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.flowise-launcher img,
+.flowise-launcher svg {
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+
+/* Hide launcher when chatbot opens */
+.flowise-launcher.closed {
+    display: flex !important;
+}
+
+.flowise-launcher.open {
+    display: none !important;
+}
+
+/* Hide Powered by Flowise watermark */
+.lite-badge,
+.lite-badge span,
+span.w-full.text-center,
+#lite-badge {
+    display: none !important;
+}
+</style>
+
+
+<script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "99d4192d-d05f-4ca6-bfdb-6d28b4724433",
+        apiHost: "https://flowise-production-6b6b.up.railway.app",
+        chatflowConfig: {
+            /* Chatflow Config */
+        },
+        observersConfig: {
+            /* Observers Config */
+        },
+        theme: {
+            button: {
+                backgroundColor: '#0d9488',
+                right: 20,
+                bottom: 20,
+                size: 48,
+                dragAndDrop: true,
+                iconColor: 'white',
+                customIconSrc: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLW1lc3NhZ2UtY2lyY2xlLWNvZGUtaWNvbiBsdWNpZGUtbWVzc2FnZS1jaXJjbGUtY29kZSI+PHBhdGggZD0ibTEwIDktMyAzIDMgMyIvPjxwYXRoIGQ9Im0xNCAxNSAzLTMtMy0zIi8+PHBhdGggZD0iTTIuOTkyIDE2LjM0MmEyIDIgMCAwIDEgLjA5NCAxLjE2N2wtMS4wNjUgMy4yOWExIDEgMCAwIDAgMS4yMzYgMS4xNjhsMy40MTMtLjk5OGEyIDIgMCAwIDEgMS4wOTkuMDkyIDEwIDEwIDAgMSAwLTQuNzc3LTQuNzE5Ii8+PC9zdmc+',
+                autoWindowOpen: {
+                    autoOpen: true,
+                    openDelay: 2,
+                    autoOpenOnMobile: false
+                }
+            },
+            tooltip: {
+                showTooltip: true,
+                tooltipMessage: 'Chat with Alexa 👋!',
+                tooltipBackgroundColor: 'black',
+                tooltipTextColor: 'white',
+                tooltipFontSize: 16
+            },
+    
+            customCSS: ``,
+            chatWindow: {
+                showTitle: true,
+                showAgentMessages: true,
+                title: 'Alexa Assistant',
+                titleAvatarSrc: 'https://cdn-icons-png.flaticon.com/512/4712/4712013.png',
+                welcomeMessage: 'Hi! I\'m Alexa\'s AI Assistant. How can I help you today?',
+                errorMessage: 'This is a custom error message',
+                backgroundColor: '#ffffff',
+                backgroundImage: 'enter image path or link',
+                height: 500,
+                width: 400,
+                fontSize: 16,
+                starterPrompts: [
+                    "Tell me about Alexa",
+                    "What projects have Alexa worked on?"
+                ],
+                starterPromptFontSize: 15,
+                clearChatOnReload: false,
+                sourceDocsTitle: 'Sources:',
+                renderHTML: true,
+                botMessage: {
+                    backgroundColor: '#f7f8ff',
+                    textColor: '#303235',
+                    showAvatar: true,
+                    avatarSrc: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWJvdC1pY29uIGx1Y2lkZS1ib3QiPjxwYXRoIGQ9Ik0xMiA4VjRIOCIvPjxyZWN0IHdpZHRoPSIxNiIgaGVpZ2h0PSIxMiIgeD0iNCIgeT0iOCIgcng9IjIiLz48cGF0aCBkPSJNMiAxNGgyIi8+PHBhdGggZD0iTTIwIDE0aDIiLz48cGF0aCBkPSJNMTUgMTN2MiIvPjxwYXRoIGQ9Ik05IDEzdjIiLz48L3N2Zz4='
+                },
+                userMessage: {
+                    backgroundColor: '#3B81F6',
+                    textColor: '#ffffff',
+                    showAvatar: true,
+                    avatarSrc: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXVzZXItaWNvbiBsdWNpZGUtdXNlciI+PHBhdGggZD0iTTE5IDIxdi0yYTQgNCAwIDAgMC00LTRIOWE0IDQgMCAwIDAtNCA0djIiLz48Y2lyY2xlIGN4PSIxMiIgY3k9IjciIHI9IjQiLz48L3N2Zz4='
+                },
+                textInput: {
+                    placeholder: 'Type your question',
+                    backgroundColor: '#ffffff',
+                    textColor: '#303235',
+                    sendButtonColor: '#3B81F6',
+                    maxChars: 50,
+                    maxCharsWarningMessage: 'You exceeded the characters limit. Please input less than 50 characters.',
+                    autoFocus: true,
+                    sendMessageSound: true,
+                    sendSoundLocation: 'send_message.mp3',
+                    receiveMessageSound: true,
+                    receiveSoundLocation: 'receive_message.mp3'
+                },
+                feedback: {
+                    color: '#303235'
+                },
+                dateTimeToggle: {
+                    date: true,
+                    time: true
+                },
+                footer: {
+                    textColor: '#303235',
+                    text: 'Built by',
+                    company: 'Maria Alexa de Luna'
+                }
+            }
+        }
+    })
+</script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        //HEADER SCROLL EFFECT
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // SMOOTH SCROLLING
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                if (this.getAttribute('href').startsWith('#')) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+
+        // ACTIVE LINKS ON SCROLL
+        const sections = document.querySelectorAll('section[id]');
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.scrollY + 100;
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                const sectionId = section.getAttribute('id');
+                if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                    document.querySelectorAll('.navigation a').forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${sectionId}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
